@@ -13,9 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Core", "Store.Core\St
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Tests", "Store.Tests\Store.Tests.csproj", "{C832F447-4F31-423A-A763-B818075ACE9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Identity", "Store.Identity\Store.Identity.csproj", "{72F39335-E0BD-45C1-8DC0-7F618CDA2101}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Common", "Store.Common\Store.Common.csproj", "{C30ABDE2-4016-42EA-A534-EA14E6BD4A19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Identity", "Store.Identity\Store.Identity.csproj", "{72F39335-E0BD-45C1-8DC0-7F618CDA2101}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +45,6 @@ Global
 		{72F39335-E0BD-45C1-8DC0-7F618CDA2101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72F39335-E0BD-45C1-8DC0-7F618CDA2101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72F39335-E0BD-45C1-8DC0-7F618CDA2101}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C30ABDE2-4016-42EA-A534-EA14E6BD4A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C30ABDE2-4016-42EA-A534-EA14E6BD4A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C30ABDE2-4016-42EA-A534-EA14E6BD4A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C30ABDE2-4016-42EA-A534-EA14E6BD4A19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
