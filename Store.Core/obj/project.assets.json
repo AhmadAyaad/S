@@ -1544,6 +1544,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Store.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Store.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.Common.dll": {}
+        }
+      },
       "Store.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1564,6 +1574,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "Store.Common": "1.0.0",
           "Store.Models": "1.0.0"
         },
         "compile": {
@@ -5878,6 +5889,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Store.Common/1.0.0": {
+      "type": "project",
+      "path": "../Store.Common/Store.Common.csproj",
+      "msbuildProject": "../Store.Common/Store.Common.csproj"
+    },
     "Store.Models/1.0.0": {
       "type": "project",
       "path": "../Store.Models/Store.Models.csproj",
@@ -5895,19 +5911,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ayad\\.nuget\\packages\\": {}
+    "C:\\Users\\dodge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\S\\Store\\Store.Core\\Store.Core.csproj",
+      "projectUniqueName": "D:\\Projects\\Store\\Store.API\\Store.Core\\Store.Core.csproj",
       "projectName": "Store.Core",
-      "projectPath": "D:\\S\\Store\\Store.Core\\Store.Core.csproj",
-      "packagesPath": "C:\\Users\\Ayad\\.nuget\\packages\\",
-      "outputPath": "D:\\S\\Store\\Store.Core\\obj\\",
+      "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Core\\Store.Core.csproj",
+      "packagesPath": "C:\\Users\\dodge\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Store\\Store.API\\Store.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Ayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dodge\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5921,8 +5937,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\S\\Store\\Store.Presistance\\Store.Presistance.csproj": {
-              "projectPath": "D:\\S\\Store\\Store.Presistance\\Store.Presistance.csproj"
+            "D:\\Projects\\Store\\Store.API\\Store.Presistance\\Store.Presistance.csproj": {
+              "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Presistance\\Store.Presistance.csproj"
             }
           }
         }
@@ -5951,7 +5967,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

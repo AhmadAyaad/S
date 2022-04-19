@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\S\\Store\\Store.Tests\\Store.Tests.csproj": {}
+    "D:\\Projects\\Store\\Store.API\\Store.Tests\\Store.Tests.csproj": {}
   },
   "projects": {
-    "D:\\S\\Store\\Store.Tests\\Store.Tests.csproj": {
+    "D:\\Projects\\Store\\Store.API\\Store.Tests\\Store.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\S\\Store\\Store.Tests\\Store.Tests.csproj",
+        "projectUniqueName": "D:\\Projects\\Store\\Store.API\\Store.Tests\\Store.Tests.csproj",
         "projectName": "Store.Tests",
-        "projectPath": "D:\\S\\Store\\Store.Tests\\Store.Tests.csproj",
-        "packagesPath": "C:\\Users\\Ayad\\.nuget\\packages\\",
-        "outputPath": "D:\\S\\Store\\Store.Tests\\obj\\",
+        "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Tests\\Store.Tests.csproj",
+        "packagesPath": "C:\\Users\\dodge\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Store\\Store.API\\Store.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dodge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

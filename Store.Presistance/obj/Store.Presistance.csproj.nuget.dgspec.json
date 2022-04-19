@@ -1,20 +1,74 @@
 {
   "format": 1,
   "restore": {
-    "D:\\S\\Store\\Store.Presistance\\Store.Presistance.csproj": {}
+    "D:\\Projects\\Store\\Store.API\\Store.Presistance\\Store.Presistance.csproj": {}
   },
   "projects": {
-    "D:\\S\\Store\\Store.Models\\Store.Models.csproj": {
+    "D:\\Projects\\Store\\Store.API\\Store.Common\\Store.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\S\\Store\\Store.Models\\Store.Models.csproj",
-        "projectName": "Store.Models",
-        "projectPath": "D:\\S\\Store\\Store.Models\\Store.Models.csproj",
-        "packagesPath": "C:\\Users\\Ayad\\.nuget\\packages\\",
-        "outputPath": "D:\\S\\Store\\Store.Models\\obj\\",
+        "projectUniqueName": "D:\\Projects\\Store\\Store.API\\Store.Common\\Store.Common.csproj",
+        "projectName": "Store.Common",
+        "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Common\\Store.Common.csproj",
+        "packagesPath": "C:\\Users\\dodge\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Store\\Store.API\\Store.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dodge\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Store\\Store.API\\Store.Models\\Store.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Store\\Store.API\\Store.Models\\Store.Models.csproj",
+        "projectName": "Store.Models",
+        "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Models\\Store.Models.csproj",
+        "packagesPath": "C:\\Users\\dodge\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Store\\Store.API\\Store.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\dodge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\S\\Store\\Store.Presistance\\Store.Presistance.csproj": {
+    "D:\\Projects\\Store\\Store.API\\Store.Presistance\\Store.Presistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\S\\Store\\Store.Presistance\\Store.Presistance.csproj",
+        "projectUniqueName": "D:\\Projects\\Store\\Store.API\\Store.Presistance\\Store.Presistance.csproj",
         "projectName": "Store.Presistance",
-        "projectPath": "D:\\S\\Store\\Store.Presistance\\Store.Presistance.csproj",
-        "packagesPath": "C:\\Users\\Ayad\\.nuget\\packages\\",
-        "outputPath": "D:\\S\\Store\\Store.Presistance\\obj\\",
+        "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Presistance\\Store.Presistance.csproj",
+        "packagesPath": "C:\\Users\\dodge\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Store\\Store.API\\Store.Presistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ayad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dodge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +142,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\S\\Store\\Store.Models\\Store.Models.csproj": {
-                "projectPath": "D:\\S\\Store\\Store.Models\\Store.Models.csproj"
+              "D:\\Projects\\Store\\Store.API\\Store.Common\\Store.Common.csproj": {
+                "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Common\\Store.Common.csproj"
+              },
+              "D:\\Projects\\Store\\Store.API\\Store.Models\\Store.Models.csproj": {
+                "projectPath": "D:\\Projects\\Store\\Store.API\\Store.Models\\Store.Models.csproj"
               }
             }
           }
@@ -138,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

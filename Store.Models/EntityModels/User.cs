@@ -2,7 +2,7 @@
 
 namespace Store.Models.EntityModels
 {
-    public class AppUser : IdentityUser
+    public class User : IdentityUser
     {
     }
 }
